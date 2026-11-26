@@ -1,0 +1,24 @@
+- [Firestore cache mutation bug](firestore-cache-mutation-bug.md) — in-place mutations on load_all() results corrupt cache; always use dict copies + direct FoldersStore/FilesStore.save()
+- [AI settings auth pattern](ai-settings-auth.md) — AI settings endpoints require requester_id param/body; GET uses query param, PUT uses body field; never return raw keys without identity check
+- [Nukhaa platform conventions](nukhaa-conventions.md) — UI/data conventions; taxonomy categories stay independent and nested options belong within their list
+- [main.py corruption pattern](main-py-corruption.md) — split bot handlers may leave orphaned markup below another decorator; inspect function boundaries, not just the parser's reported line
+- [Telegram Mini App safe area insets](tg-safe-area-insets.md) — SDK contentSafeAreaInset may be zero; centralize --app-inset-* vars and add mobile fallback header band only when content top is missing
+- [Render free hosting for Telegram bots](render-free-bot-hosting.md) — Render free background workers are gone; use a free web service with a health endpoint, explicit healthCheckPath, and a pinger
+- [RTL breadcrumb with mixed Arabic/Latin segments](rtl-mixed-script-breadcrumb.md) — dir=rtl inline breadcrumbs mis-order mixed-script segments; use display:flex on the container to fix
+- [encodeURIComponent leaves quotes unescaped](encodeuricomponent-quote-gotcha.md) — never embed encodeURIComponent(html) inside a single-quoted inline event-handler attribute; apostrophes survive and break out
+- [Nukhaa file storage model](nukhaa-file-storage-model.md) — all real binaries live in Telegram (sendDocument/file_id); url-sourced "downloads" must fetch bytes and re-upload via bot, size-capped, with explicit link fallback on failure
+- [Font glyph coverage for Persian/Urdu Arabic-script letters](font-persian-glyph-coverage.md) — Tajawal mishapes گ/پ/چ/ژ; Vazirmatn covers them — prefer Vazirmatn first when text may be Persian/Urdu, not just Arabic
+- [Nukhaa UI/gesture quirks](nukhaa-ui-gesture-quirks.md) — overflow:hidden clips child dropdowns; clipboard writes break after an awaited fetch; modal scroll-lock loses scrollY on close
+- [Cross-process cache staleness](cross-process-cache-staleness.md) — bot and mini-app are separate processes with separate in-memory Firestore caches; use force=True bypass for cross-process reads like /start deep links
+- [Nukhaa now on Supabase, not Firestore](nukhaa-supabase-migration.md) — data layer moved to a generic Postgres `documents` table behind the same Store-class API; Firestore is retired
+- [Nukhaa deploy split](nukhaa-deploy-split.md) — Mini App on PythonAnywhere for stable URL; bot on Render; both share Supabase + env vars
+- [Universal SVG thumbnails](universal-svg-thumbnails.md) — backend `/api/files/<id>/thumb` serves SVG fallback for audio/video/office/text; frontend uses the same endpoint for grid/list/details/search
+- [Google Drive/Classroom FilesStore import](google-drive-filsstore-missing.md) — FilesStore NOT at module level; every Google endpoint must have local `from db import FilesStore` or uploads go to Telegram but never recorded (shows "رفع 0")
+- [_send_bytes_to_telegram BytesIO size](send-bytes-bytesio.md) — fallback `len(file_data)` crashes for BytesIO; use seek+tell or 0; Telegram normally returns file_size so fallback rarely needed
+- [Classroom browser preview & Drive thumbnails](classroom-preview-thumbnails.md) — Drive list exposes thumbnailLink/iconLink/webViewLink; Classroom posts can be previewed before upload via dedicated endpoint and modal
+- [Google per-user OAuth](google-per-user-oauth.md) — Drive/Classroom tokens are per user; callback at `/api/google/callback`; needs offline refresh token for background uploads
+- [HTML replacement leftover fragments](html-replacement-leftovers.md) — replacing a function declaration without its body can leave orphaned code at global scope; always verify with `node --check` after JS edits
+- [Nukhaa search & details patterns](nukhaa-search-details.md) — Arabic variant matching, tag-filter vs text-search separation, dl-url endpoint, quiz detail modal, media player pattern
+- [Nukhaa quiz/question bank data model](nukhaa-quiz-questions-model.md) — new questions require a quiz; fixed quiz types affect new items only, while historical questions and Telegram image IDs remain compatible
+- [Telegram WKWebView inline handlers](telegram-webview-inline-handlers.md) — expose functions used by HTML `onclick` handlers on `window`; unqualified global names may fail in the Telegram WebView
+- [Two-column PDF question imports](two-column-pdf-question-imports.md) — rebuild reading order by column and accept Unicode spacing in answer-key markers

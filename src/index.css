@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --accent: #C9956C;
+    --accent-glow: rgba(201, 149, 108, 0.32);
+    --accent-dark: #A07040;
+    --bg-from: #f4efe6;
+    --bg-to: #e8dfd1;
+    --surface-primary: rgba(255, 255, 255, 0.92);
+    --surface-secondary: rgba(250, 246, 240, 0.85);
+    --border-subtle: rgba(201, 149, 108, 0.22);
+    --text-main: #182238;
+    --text-muted: #5b6478;
+  }
+
+  .dark {
+    --accent: #C9956C;
+    --accent-glow: rgba(201, 149, 108, 0.35);
+    --accent-dark: #A07040;
+    --bg-from: #0b162c;
+    --bg-to: #15274d;
+    --surface-primary: rgba(17, 30, 62, 0.84);
+    --surface-secondary: rgba(12, 22, 46, 0.92);
+    --border-subtle: rgba(201, 149, 108, 0.2);
+    --text-main: #e8e0d5;
+    --text-muted: #9aa5b8;
+  }
+
+  html, body {
+    font-family: 'Vazirmatn', 'Tajawal', sans-serif;
+    direction: rtl;
+  }
+}
+
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+
+.font-mono-num {
+  font-family: 'IBM Plex Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}

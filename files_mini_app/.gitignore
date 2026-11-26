@@ -1,0 +1,24 @@
+# Secrets
+.env
+*.pem
+*.key
+serviceAccount.json
+firebase_credentials.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Replit
+.config/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

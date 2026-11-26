@@ -1,0 +1,31 @@
+الشريط العلوي:
+
+- لماذا غيرت الخط في صندوق الوقت، الخط السابق كان أجمل.
+
+- لا زالت مشكلة التجاوب في الانجليزية (الزر يغطي على صندوق الوقت كما في الصورة) رغم انها افضل من قبل، فما العمل؟ (هل يمكننا نقل اليوم الى جوار الوقت يفصل بينهما خط في الشاشات الصغيرة ويعود لمكانه عندما يكون حجم الشاشة مناسبا؟ أو يمكننا جعل شعار المنصة في الشريط قابل للضغط ويفتح الاعدادات ونحذف زر الاعدادات لتوفير مساحة؟).
+
+- الضغط على صندوق الوقت اصبح لا يظهر اعداد الوقت، فحل المشكلة.
+
+الملفات:
+
+- هناك مشكلة: عند الخروج من نافذة منبثقة يصعد لأعلى المجلد، فحل المشكلة.
+
+- احفظ موضع ومكان المستخدم ليعود اليه تلقائياّ عند الخروج والعودة للمنصة.
+
+- زري الرابط والمشاركة فلا زالا لا يعملان بالشكل المطلوب
+
+بالنسبة لزر الرابط يجب ان ينسخ الرابط الذي يؤدي الى ارساله للبوت ولا يرسله مباشرة الى البوت (والا مافرقه عن زر الارسال)
+
+وزر المشاركة يجب ان يشارك الرابط الذي يفتح الملف في التطبيق المصغر مباشرة.
+
+واعمل بهذه التغييرات التي كتبتها انت في قائمة (Needs more work) ولكن اسفل حقل تغيير الاسم اكتب توضيحاً بان التعديل يقوم باعادة رفع للملف بالعنوان الجديد.
+
+هذه القائمة توقفنا عندها في المرة السابقة لنفاد الرصيد:
+
+Needs more work (flagged for clarity):
+Rename → sent file shows old name — the filename displayed inside the Telegram document bubble (the header above the file) is stored permanently in Telegram's servers and cannot be changed via copyMessage. The caption below it now shows the new name correctly. To truly rename it, the file would need to be re-downloaded and re-uploaded with the new name — a heavier operation I can implement if you want.
+Thumbnails/previews for all file types in all views — requires backend thumbnail generation for audio, video, Office docs; complex feature.
+Uploader info in details — needs the uploader_id / uploader_name stored on upload, then fetched for display.
+Tags applying to sub-items — structural change to how tag queries work.
+YouTube logo in link thumbnails — add a YouTube logo overlay when the domain is youtube.com.
+Bulk add tags without overwriting — add a "وسم" button to the bulk action bar.

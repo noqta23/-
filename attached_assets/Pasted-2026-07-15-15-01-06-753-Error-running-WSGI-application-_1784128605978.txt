@@ -1,0 +1,304 @@
+2026-07-15 15:01:06,753: Error running WSGI application
+2026-07-15 15:01:06,761: ModuleNotFoundError: No module named 'psycopg2'
+2026-07-15 15:01:06,762:   File "/var/www/noqta23_pythonanywhere_com_wsgi.py", line 24, in <module>
+2026-07-15 15:01:06,764:     from app import app
+2026-07-15 15:01:06,764: 
+2026-07-15 15:01:06,764:   File "/home/noqta23/NukhaaPlatform/files_mini_app/app.py", line 18, in <module>
+2026-07-15 15:01:06,764:     from google_client import (
+2026-07-15 15:01:06,764: 
+2026-07-15 15:01:06,764:   File "/home/noqta23/NukhaaPlatform/files_mini_app/google_client.py", line 8, in <module>
+2026-07-15 15:01:06,765:     from db import GoogleTokensStore
+2026-07-15 15:01:06,765: 
+2026-07-15 15:01:06,765:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 28, in <module>
+2026-07-15 15:01:06,765:     import psycopg2
+2026-07-15 15:01:06,765: ***************************************************
+2026-07-15 15:01:06,766: If you're seeing an import error and don't know why,
+2026-07-15 15:01:06,766: we have a dedicated help page to help you debug: 
+2026-07-15 15:01:06,766: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2026-07-15 15:01:06,766: ***************************************************
+2026-07-15 15:01:10,170: Error running WSGI application
+2026-07-15 15:01:10,171: ModuleNotFoundError: No module named 'psycopg2'
+2026-07-15 15:01:10,171:   File "/var/www/noqta23_pythonanywhere_com_wsgi.py", line 24, in <module>
+2026-07-15 15:01:10,171:     from app import app
+2026-07-15 15:01:10,171: 
+2026-07-15 15:01:10,171:   File "/home/noqta23/NukhaaPlatform/files_mini_app/app.py", line 18, in <module>
+2026-07-15 15:01:10,172:     from google_client import (
+2026-07-15 15:01:10,172: 
+2026-07-15 15:01:10,172:   File "/home/noqta23/NukhaaPlatform/files_mini_app/google_client.py", line 8, in <module>
+2026-07-15 15:01:10,172:     from db import GoogleTokensStore
+2026-07-15 15:01:10,173: 
+2026-07-15 15:01:10,173:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 28, in <module>
+2026-07-15 15:01:10,173:     import psycopg2
+2026-07-15 15:01:10,173: ***************************************************
+2026-07-15 15:01:10,173: If you're seeing an import error and don't know why,
+2026-07-15 15:01:10,174: we have a dedicated help page to help you debug: 
+2026-07-15 15:01:10,174: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2026-07-15 15:01:10,174: ***************************************************
+2026-07-15 15:01:40,696: Error running WSGI application
+2026-07-15 15:01:40,698: ModuleNotFoundError: No module named 'psycopg2'
+2026-07-15 15:01:40,698:   File "/var/www/noqta23_pythonanywhere_com_wsgi.py", line 24, in <module>
+2026-07-15 15:01:40,698:     from app import app
+2026-07-15 15:01:40,698: 
+2026-07-15 15:01:40,699:   File "/home/noqta23/NukhaaPlatform/files_mini_app/app.py", line 18, in <module>
+2026-07-15 15:01:40,699:     from google_client import (
+2026-07-15 15:01:40,699: 
+2026-07-15 15:01:40,699:   File "/home/noqta23/NukhaaPlatform/files_mini_app/google_client.py", line 8, in <module>
+2026-07-15 15:01:40,699:     from db import GoogleTokensStore
+2026-07-15 15:01:40,700: 
+2026-07-15 15:01:40,700:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 28, in <module>
+2026-07-15 15:01:40,700:     import psycopg2
+2026-07-15 15:01:40,700: ***************************************************
+2026-07-15 15:01:40,700: If you're seeing an import error and don't know why,
+2026-07-15 15:01:40,700: we have a dedicated help page to help you debug: 
+2026-07-15 15:01:40,700: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2026-07-15 15:01:40,700: ***************************************************
+2026-07-15 15:02:36,651: Error running WSGI application
+2026-07-15 15:02:36,676: ModuleNotFoundError: No module named 'psycopg2'
+2026-07-15 15:02:36,676:   File "/var/www/noqta23_pythonanywhere_com_wsgi.py", line 24, in <module>
+2026-07-15 15:02:36,676:     from app import app
+2026-07-15 15:02:36,676: 
+2026-07-15 15:02:36,676:   File "/home/noqta23/NukhaaPlatform/files_mini_app/app.py", line 18, in <module>
+2026-07-15 15:02:36,677:     from google_client import (
+2026-07-15 15:02:36,680: 
+2026-07-15 15:02:36,682:   File "/home/noqta23/NukhaaPlatform/files_mini_app/google_client.py", line 8, in <module>
+2026-07-15 15:02:36,682:     from db import GoogleTokensStore
+2026-07-15 15:02:36,685: 
+2026-07-15 15:02:36,685:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 28, in <module>
+2026-07-15 15:02:36,685:     import psycopg2
+2026-07-15 15:02:36,685: ***************************************************
+2026-07-15 15:02:36,685: If you're seeing an import error and don't know why,
+2026-07-15 15:02:36,686: we have a dedicated help page to help you debug: 
+2026-07-15 15:02:36,686: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2026-07-15 15:02:36,686: ***************************************************
+2026-07-15 15:07:42,571: Error running WSGI application
+2026-07-15 15:07:42,586: ModuleNotFoundError: No module named 'psycopg2'
+2026-07-15 15:07:42,587:   File "/var/www/noqta23_pythonanywhere_com_wsgi.py", line 24, in <module>
+2026-07-15 15:07:42,587:     from app import app
+2026-07-15 15:07:42,587: 
+2026-07-15 15:07:42,587:   File "/home/noqta23/NukhaaPlatform/files_mini_app/app.py", line 18, in <module>
+2026-07-15 15:07:42,588:     from google_client import (
+2026-07-15 15:07:42,588: 
+2026-07-15 15:07:42,588:   File "/home/noqta23/NukhaaPlatform/files_mini_app/google_client.py", line 8, in <module>
+2026-07-15 15:07:42,588:     from db import GoogleTokensStore
+2026-07-15 15:07:42,588: 
+2026-07-15 15:07:42,589:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 28, in <module>
+2026-07-15 15:07:42,589:     import psycopg2
+2026-07-15 15:07:42,589: ***************************************************
+2026-07-15 15:07:42,589: If you're seeing an import error and don't know why,
+2026-07-15 15:07:42,589: we have a dedicated help page to help you debug: 
+2026-07-15 15:07:42,590: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2026-07-15 15:07:42,590: ***************************************************
+2026-07-15 15:07:56,875: Error running WSGI application
+2026-07-15 15:07:56,887: ModuleNotFoundError: No module named 'psycopg2'
+2026-07-15 15:07:56,887:   File "/var/www/noqta23_pythonanywhere_com_wsgi.py", line 24, in <module>
+2026-07-15 15:07:56,887:     from app import app
+2026-07-15 15:07:56,888: 
+2026-07-15 15:07:56,888:   File "/home/noqta23/NukhaaPlatform/files_mini_app/app.py", line 18, in <module>
+2026-07-15 15:07:56,888:     from google_client import (
+2026-07-15 15:07:56,888: 
+2026-07-15 15:07:56,888:   File "/home/noqta23/NukhaaPlatform/files_mini_app/google_client.py", line 8, in <module>
+2026-07-15 15:07:56,888:     from db import GoogleTokensStore
+2026-07-15 15:07:56,889: 
+2026-07-15 15:07:56,889:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 28, in <module>
+2026-07-15 15:07:56,889:     import psycopg2
+2026-07-15 15:07:56,889: ***************************************************
+2026-07-15 15:07:56,889: If you're seeing an import error and don't know why,
+2026-07-15 15:07:56,889: we have a dedicated help page to help you debug: 
+2026-07-15 15:07:56,893: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2026-07-15 15:07:56,893: ***************************************************
+2026-07-15 15:08:04,932: Error running WSGI application
+2026-07-15 15:08:04,933: ModuleNotFoundError: No module named 'psycopg2'
+2026-07-15 15:08:04,933:   File "/var/www/noqta23_pythonanywhere_com_wsgi.py", line 24, in <module>
+2026-07-15 15:08:04,933:     from app import app
+2026-07-15 15:08:04,933: 
+2026-07-15 15:08:04,933:   File "/home/noqta23/NukhaaPlatform/files_mini_app/app.py", line 18, in <module>
+2026-07-15 15:08:04,934:     from google_client import (
+2026-07-15 15:08:04,934: 
+2026-07-15 15:08:04,934:   File "/home/noqta23/NukhaaPlatform/files_mini_app/google_client.py", line 8, in <module>
+2026-07-15 15:08:04,934:     from db import GoogleTokensStore
+2026-07-15 15:08:04,934: 
+2026-07-15 15:08:04,935:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 28, in <module>
+2026-07-15 15:08:04,935:     import psycopg2
+2026-07-15 15:08:04,935: ***************************************************
+2026-07-15 15:08:04,935: If you're seeing an import error and don't know why,
+2026-07-15 15:08:04,935: we have a dedicated help page to help you debug: 
+2026-07-15 15:08:04,935: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2026-07-15 15:08:04,935: ***************************************************
+2026-07-15 15:14:16,249: Error running WSGI application
+2026-07-15 15:14:16,263: psycopg2.OperationalError: connection to server at "aws-0-ap-southeast-1.pooler.supabase.com" (52.74.252.201), port 5432 failed: Connection refused
+2026-07-15 15:14:16,264: #011Is the server running on that host and accepting TCP/IP connections?
+2026-07-15 15:14:16,264: connection to server at "aws-0-ap-southeast-1.pooler.supabase.com" (54.255.219.82), port 5432 failed: Connection refused
+2026-07-15 15:14:16,264: #011Is the server running on that host and accepting TCP/IP connections?
+2026-07-15 15:14:16,264: connection to server at "aws-0-ap-southeast-1.pooler.supabase.com" (52.77.146.31), port 5432 failed: Connection refused
+2026-07-15 15:14:16,264: #011Is the server running on that host and accepting TCP/IP connections?
+2026-07-15 15:14:16,265: 
+2026-07-15 15:14:16,265:   File "/var/www/noqta23_pythonanywhere_com_wsgi.py", line 24, in <module>
+2026-07-15 15:14:16,265:     from app import app
+2026-07-15 15:14:16,265: 
+2026-07-15 15:14:16,265:   File "/home/noqta23/NukhaaPlatform/files_mini_app/app.py", line 18, in <module>
+2026-07-15 15:14:16,266:     from google_client import (
+2026-07-15 15:14:16,266: 
+2026-07-15 15:14:16,267:   File "/home/noqta23/NukhaaPlatform/files_mini_app/google_client.py", line 8, in <module>
+2026-07-15 15:14:16,267:     from db import GoogleTokensStore
+2026-07-15 15:14:16,267: 
+2026-07-15 15:14:16,267:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 91, in <module>
+2026-07-15 15:14:16,267:     _ensure_schema()
+2026-07-15 15:14:16,268: 
+2026-07-15 15:14:16,268:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 73, in _ensure_schema
+2026-07-15 15:14:16,268:     with _PooledConn() as conn:
+2026-07-15 15:14:16,268: 
+2026-07-15 15:14:16,268:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 60, in __enter__
+2026-07-15 15:14:16,268:     self.conn = _get_pool().getconn()
+2026-07-15 15:14:16,269: 
+2026-07-15 15:14:16,269:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 52, in _get_pool
+2026-07-15 15:14:16,269:     _POOL = ThreadedConnectionPool(1, 10, dsn=_get_connection_url(), connect_timeout=10)
+2026-07-15 15:14:16,269: 
+2026-07-15 15:14:16,269:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/pool.py", line 161, in __init__
+2026-07-15 15:14:16,269:     AbstractConnectionPool.__init__(
+2026-07-15 15:14:16,269: 
+2026-07-15 15:14:16,269:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/pool.py", line 59, in __init__
+2026-07-15 15:14:16,270:     self._connect()
+2026-07-15 15:14:16,270: 
+2026-07-15 15:14:16,270:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/pool.py", line 63, in _connect
+2026-07-15 15:14:16,270:     conn = psycopg2.connect(*self._args, **self._kwargs)
+2026-07-15 15:14:16,270: 
+2026-07-15 15:14:16,270:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+2026-07-15 15:14:16,270:     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+2026-07-15 15:14:16,271: ***************************************************
+2026-07-15 15:14:16,271: If you're seeing an import error and don't know why,
+2026-07-15 15:14:16,271: we have a dedicated help page to help you debug: 
+2026-07-15 15:14:16,271: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2026-07-15 15:14:16,271: ***************************************************
+2026-07-15 15:14:22,510: Error running WSGI application
+2026-07-15 15:14:22,511: psycopg2.OperationalError: connection to server at "aws-0-ap-southeast-1.pooler.supabase.com" (52.74.252.201), port 5432 failed: Connection refused
+2026-07-15 15:14:22,512: #011Is the server running on that host and accepting TCP/IP connections?
+2026-07-15 15:14:22,512: connection to server at "aws-0-ap-southeast-1.pooler.supabase.com" (54.255.219.82), port 5432 failed: Connection refused
+2026-07-15 15:14:22,512: #011Is the server running on that host and accepting TCP/IP connections?
+2026-07-15 15:14:22,512: connection to server at "aws-0-ap-southeast-1.pooler.supabase.com" (52.77.146.31), port 5432 failed: Connection refused
+2026-07-15 15:14:22,512: #011Is the server running on that host and accepting TCP/IP connections?
+2026-07-15 15:14:22,512: 
+2026-07-15 15:14:22,512:   File "/var/www/noqta23_pythonanywhere_com_wsgi.py", line 24, in <module>
+2026-07-15 15:14:22,512:     from app import app
+2026-07-15 15:14:22,513: 
+2026-07-15 15:14:22,513:   File "/home/noqta23/NukhaaPlatform/files_mini_app/app.py", line 18, in <module>
+2026-07-15 15:14:22,513:     from google_client import (
+2026-07-15 15:14:22,513: 
+2026-07-15 15:14:22,513:   File "/home/noqta23/NukhaaPlatform/files_mini_app/google_client.py", line 8, in <module>
+2026-07-15 15:14:22,513:     from db import GoogleTokensStore
+2026-07-15 15:14:22,513: 
+2026-07-15 15:14:22,513:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 91, in <module>
+2026-07-15 15:14:22,513:     _ensure_schema()
+2026-07-15 15:14:22,514: 
+2026-07-15 15:14:22,514:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 73, in _ensure_schema
+2026-07-15 15:14:22,514:     with _PooledConn() as conn:
+2026-07-15 15:14:22,514: 
+2026-07-15 15:14:22,514:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 60, in __enter__
+2026-07-15 15:14:22,514:     self.conn = _get_pool().getconn()
+2026-07-15 15:14:22,514: 
+2026-07-15 15:14:22,514:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 52, in _get_pool
+2026-07-15 15:14:22,515:     _POOL = ThreadedConnectionPool(1, 10, dsn=_get_connection_url(), connect_timeout=10)
+2026-07-15 15:14:22,515: 
+2026-07-15 15:14:22,515:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/pool.py", line 161, in __init__
+2026-07-15 15:14:22,515:     AbstractConnectionPool.__init__(
+2026-07-15 15:14:22,515: 
+2026-07-15 15:14:22,515:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/pool.py", line 59, in __init__
+2026-07-15 15:14:22,515:     self._connect()
+2026-07-15 15:14:22,515: 
+2026-07-15 15:14:22,515:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/pool.py", line 63, in _connect
+2026-07-15 15:14:22,515:     conn = psycopg2.connect(*self._args, **self._kwargs)
+2026-07-15 15:14:22,516: 
+2026-07-15 15:14:22,516:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+2026-07-15 15:14:22,516:     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+2026-07-15 15:14:22,516: ***************************************************
+2026-07-15 15:14:22,516: If you're seeing an import error and don't know why,
+2026-07-15 15:14:22,516: we have a dedicated help page to help you debug: 
+2026-07-15 15:14:22,516: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2026-07-15 15:14:22,516: ***************************************************
+2026-07-15 15:14:25,177: Error running WSGI application
+2026-07-15 15:14:25,177: psycopg2.OperationalError: connection to server at "aws-0-ap-southeast-1.pooler.supabase.com" (52.74.252.201), port 5432 failed: Connection refused
+2026-07-15 15:14:25,177: #011Is the server running on that host and accepting TCP/IP connections?
+2026-07-15 15:14:25,177: connection to server at "aws-0-ap-southeast-1.pooler.supabase.com" (54.255.219.82), port 5432 failed: Connection refused
+2026-07-15 15:14:25,178: #011Is the server running on that host and accepting TCP/IP connections?
+2026-07-15 15:14:25,178: connection to server at "aws-0-ap-southeast-1.pooler.supabase.com" (52.77.146.31), port 5432 failed: Connection refused
+2026-07-15 15:14:25,178: #011Is the server running on that host and accepting TCP/IP connections?
+2026-07-15 15:14:25,178: 
+2026-07-15 15:14:25,178:   File "/var/www/noqta23_pythonanywhere_com_wsgi.py", line 24, in <module>
+2026-07-15 15:14:25,178:     from app import app
+2026-07-15 15:14:25,178: 
+2026-07-15 15:14:25,178:   File "/home/noqta23/NukhaaPlatform/files_mini_app/app.py", line 18, in <module>
+2026-07-15 15:14:25,179:     from google_client import (
+2026-07-15 15:14:25,179: 
+2026-07-15 15:14:25,179:   File "/home/noqta23/NukhaaPlatform/files_mini_app/google_client.py", line 8, in <module>
+2026-07-15 15:14:25,179:     from db import GoogleTokensStore
+2026-07-15 15:14:25,179: 
+2026-07-15 15:14:25,179:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 91, in <module>
+2026-07-15 15:14:25,179:     _ensure_schema()
+2026-07-15 15:14:25,179: 
+2026-07-15 15:14:25,179:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 73, in _ensure_schema
+2026-07-15 15:14:25,179:     with _PooledConn() as conn:
+2026-07-15 15:14:25,179: 
+2026-07-15 15:14:25,180:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 60, in __enter__
+2026-07-15 15:14:25,180:     self.conn = _get_pool().getconn()
+2026-07-15 15:14:25,180: 
+2026-07-15 15:14:25,180:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 52, in _get_pool
+2026-07-15 15:14:25,180:     _POOL = ThreadedConnectionPool(1, 10, dsn=_get_connection_url(), connect_timeout=10)
+2026-07-15 15:14:25,181: 
+2026-07-15 15:14:25,181:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/pool.py", line 161, in __init__
+2026-07-15 15:14:25,181:     AbstractConnectionPool.__init__(
+2026-07-15 15:14:25,181: 
+2026-07-15 15:14:25,181:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/pool.py", line 59, in __init__
+2026-07-15 15:14:25,182:     self._connect()
+2026-07-15 15:14:25,182: 
+2026-07-15 15:14:25,182:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/pool.py", line 63, in _connect
+2026-07-15 15:14:25,182:     conn = psycopg2.connect(*self._args, **self._kwargs)
+2026-07-15 15:14:25,182: 
+2026-07-15 15:14:25,182:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+2026-07-15 15:14:25,182:     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+2026-07-15 15:14:25,183: ***************************************************
+2026-07-15 15:14:25,183: If you're seeing an import error and don't know why,
+2026-07-15 15:14:25,183: we have a dedicated help page to help you debug: 
+2026-07-15 15:14:25,183: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2026-07-15 15:14:25,183: ***************************************************
+2026-07-15 15:14:29,280: Error running WSGI application
+2026-07-15 15:14:29,281: psycopg2.OperationalError: connection to server at "aws-0-ap-southeast-1.pooler.supabase.com" (52.74.252.201), port 5432 failed: Connection refused
+2026-07-15 15:14:29,281: #011Is the server running on that host and accepting TCP/IP connections?
+2026-07-15 15:14:29,281: connection to server at "aws-0-ap-southeast-1.pooler.supabase.com" (54.255.219.82), port 5432 failed: Connection refused
+2026-07-15 15:14:29,282: #011Is the server running on that host and accepting TCP/IP connections?
+2026-07-15 15:14:29,282: connection to server at "aws-0-ap-southeast-1.pooler.supabase.com" (52.77.146.31), port 5432 failed: Connection refused
+2026-07-15 15:14:29,282: #011Is the server running on that host and accepting TCP/IP connections?
+2026-07-15 15:14:29,282: 
+2026-07-15 15:14:29,283:   File "/var/www/noqta23_pythonanywhere_com_wsgi.py", line 24, in <module>
+2026-07-15 15:14:29,283:     from app import app
+2026-07-15 15:14:29,283: 
+2026-07-15 15:14:29,283:   File "/home/noqta23/NukhaaPlatform/files_mini_app/app.py", line 18, in <module>
+2026-07-15 15:14:29,283:     from google_client import (
+2026-07-15 15:14:29,284: 
+2026-07-15 15:14:29,284:   File "/home/noqta23/NukhaaPlatform/files_mini_app/google_client.py", line 8, in <module>
+2026-07-15 15:14:29,284:     from db import GoogleTokensStore
+2026-07-15 15:14:29,284: 
+2026-07-15 15:14:29,284:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 91, in <module>
+2026-07-15 15:14:29,285:     _ensure_schema()
+2026-07-15 15:14:29,285: 
+2026-07-15 15:14:29,285:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 73, in _ensure_schema
+2026-07-15 15:14:29,285:     with _PooledConn() as conn:
+2026-07-15 15:14:29,285: 
+2026-07-15 15:14:29,286:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 60, in __enter__
+2026-07-15 15:14:29,286:     self.conn = _get_pool().getconn()
+2026-07-15 15:14:29,286: 
+2026-07-15 15:14:29,286:   File "/home/noqta23/NukhaaPlatform/files_mini_app/db.py", line 52, in _get_pool
+2026-07-15 15:14:29,286:     _POOL = ThreadedConnectionPool(1, 10, dsn=_get_connection_url(), connect_timeout=10)
+2026-07-15 15:14:29,287: 
+2026-07-15 15:14:29,287:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/pool.py", line 161, in __init__
+2026-07-15 15:14:29,287:     AbstractConnectionPool.__init__(
+2026-07-15 15:14:29,287: 
+2026-07-15 15:14:29,288:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/pool.py", line 59, in __init__
+2026-07-15 15:14:29,288:     self._connect()
+2026-07-15 15:14:29,288: 
+2026-07-15 15:14:29,288:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/pool.py", line 63, in _connect
+2026-07-15 15:14:29,288:     conn = psycopg2.connect(*self._args, **self._kwargs)
+2026-07-15 15:14:29,288: 
+2026-07-15 15:14:29,288:   File "/home/noqta23/.virtualenvs/nukhaa/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+2026-07-15 15:14:29,289:     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+2026-07-15 15:14:29,289: ***************************************************
+2026-07-15 15:14:29,289: If you're seeing an import error and don't know why,
+2026-07-15 15:14:29,289: we have a dedicated help page to help you debug: 
